@@ -101,7 +101,7 @@ html,body{font-family: "Roboto", sans-serif; color: #666;}
 @media all and (max-width:767px){  
   .main{display: none;}
   
-  .m_main{margin: 0 auto; width: 90%; height: calc(100vh - 380px); border: 1px solid black; position: relative; top: 60px; display: flex; overflow: hidden;}
+  .m_main{margin: 0 auto; width: 90%; height: calc(100vh - 420px); border: 1px solid black; position: relative; top: 60px; display: flex; overflow: hidden;}
   .m_main>.slide{position: absolute;}
   .m_main>.slide>li>a>div{margin-left: 2%; font-size: 12px;}
   .m_main>.slide2{left: 100%;}
