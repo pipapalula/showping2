@@ -101,13 +101,15 @@ html,body{font-family: "Roboto", sans-serif; color: #666;}
 @media all and (max-width:767px){  
   .main{display: none;}
   
-  .m_main{margin: 0 auto; width: 90%; height: calc(100vh - 550px); border: 1px solid black; position: relative; top: 60px; display: flex; overflow: hidden;}
+  .m_main{margin: 0 auto; width: 90%; height: calc(100vh - 380px); border: 1px solid black; position: relative; top: 60px; display: flex; overflow: hidden;}
   .m_main>.slide{position: absolute;}
   .m_main>.slide>li>a>div{margin-left: 2%; font-size: 12px;}
   .m_main>.slide2{left: 100%;}
   .m_main>.slide3{left: 200%;}
   .list>li{width: 40%;  margin-bottom: 30px;}
     .list>li>a img{ height: 250px;}
+    
+    .footer{height: 30%;}
     .f_top{flex-direction: column; align-items: center;}
     .f_menu{margin-top: 20px; }
     .f_meun>ul>li{width: 80px;display: flex; justify-content: space-evenly; margin-top: 10px;}
